@@ -73,7 +73,7 @@ app.layout = dbc.Container([
                     dbc.Row([
                         dbc.Col(
                             daq.Gauge(
-                                id="steering", label="Steering", min=-45, max=45, value=0, showCurrentValue=True
+                                id="steering", label="Steering", min=-45, max=45, value=0, showCurrentValue=True, color={"gradient": True, "ranges": {"green": [0, 0]}}
                             ), width=6
                         ),
                         dbc.Col(
