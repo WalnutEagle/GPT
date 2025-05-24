@@ -88,12 +88,12 @@ app.layout = dbc.Container([
     ]),
 
     # Quit button
-    dbc.Row(
-        dbc.Col(
-            dbc.Button("Quit Session", color="danger"),
-            className="mt-4"
-        )
-    ),
+    # dbc.Row(
+    #     dbc.Col(
+    #         dbc.Button("Quit Session", color="danger"),
+    #         className="mt-4"
+    #     )
+    # ),
 
     # Interval for simulated updates
     dcc.Interval(id="interval", interval=1000, n_intervals=0)
