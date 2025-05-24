@@ -42,7 +42,7 @@ app.layout = dbc.Container([
         dbc.Col([
             dbc.Card([
                 dbc.CardHeader(
-                    dbc.Button("Switch to Depth View", color="primary", block=True)
+                    dbc.Button("Switch to Depth View", color="primary")
                 ),
                 dbc.CardBody(
                     html.P(
@@ -90,7 +90,7 @@ app.layout = dbc.Container([
     # Quit button
     dbc.Row(
         dbc.Col(
-            dbc.Button("Quit Session", color="danger", block=True),
+            dbc.Button("Quit Session", color="danger"),
             className="mt-4"
         )
     ),
